@@ -588,7 +588,7 @@ h1.education-header {
   cursor: pointer;
   background: #0077b5;
   color: white;
-  padding: 10px;
+  padding: 5px 10px;
   border-radius: 5px;
   margin-top: 10px;
   transition: background 0.3s ease;
