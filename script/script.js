@@ -1,18 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const topNav = document.querySelector("header");
-  const landingSection = document.querySelector(".landing");
-
-  window.addEventListener("scroll", function () {
-    const landingBottom = landingSection.getBoundingClientRect().bottom;
-
-    // When the landing section is fully out of view, show the header
-    if (landingBottom <= 0) {
-      topNav.classList.add("visible");
-    } else {
-      topNav.classList.remove("visible");
-    }
-  });
-
   const experienceCards = document.querySelectorAll(".experience-card");
 
   experienceCards.forEach((card) => {
@@ -28,3 +14,24 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const topNav = document.querySelector("header");
+    const landingSection = document.querySelector(".landing");
+  
+    window.addEventListener("scroll", function () {
+      const landingBottom = landingSection.getBoundingClientRect().bottom;
+  
+      if (landingBottom <= 0) {
+        // If the bottom of the landing section is above the top of the viewport
+        topNav.style.opacity = "1";
+        topNav.style.visibility = "visible";
+      } else {
+        // If the landing section is still in view
+        topNav.style.opacity = "0";
+        topNav.style.visibility = "hidden";
+      }
+    });
+  });
+  
+  
