@@ -454,114 +454,151 @@ a .fa-linkedin:hover {
 /* START OF EDUCATION SECTION */
 
 .education {
-    padding: 5%;
-    background: var(--primariy-linear-gradient);
-    position: relative;
-    overflow: hidden;
-    max-width: 100vw;
+  padding: 5%;
+  background: var(--primariy-linear-gradient);
+  position: relative;
+  overflow: hidden;
+  max-width: 100vw;
+  padding-bottom: 10%;
+  margin-bottom: 5%;
+}
+
+h1.education-header {
+  font-weight: 200;
+  font-size: 3.5rem;
+  letter-spacing: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 15px;
+  text-align: left;
+  z-index: 10;
+  position: relative;
+}
+
+.education-scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
+  padding-top: 80px;
+  min-height: 650px;
+  overflow: visible; /* Ensure the container adapts to the card height */
+}
+
+.education-card {
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, opacity 0.5s ease, height 0.5s ease;
+  opacity: 0.7;
+  transform: scale(0.75); /* Inactive cards scaled down */
+  border-radius: 8px;
+  flex-shrink: 0;
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  text-align: center;
+}
+
+.education-card.active {
+  transform: scale(1); /* Active card at full scale */
+  opacity: 1;
+  z-index: 2;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3); /* Make the shadow more pronounced */
+}
+
+.university-image {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.university-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.university-information {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.university-information h2,
+.university-information h3,
+.university-information h4 {
+  margin: 5px 0;
+  font-size: 1rem;
+  overflow-wrap: break-word;
+}
+
+/* Shared styling for both active and inactive cards */
+.education-card .university-name {
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.education-card .university-location {
+  padding-top: 0.1rem;
+  font-weight: 200;
+  font-size: 0.5rem;
+}
+
+.education-card .university-batch {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+.education-card .program-name {
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.education-card .coursework {
+  font-size: 0.6rem;
+}
+
+.coursework-card ul {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.coursework-card.active ul {
+  display: block;
+  li {
+    font-size: 0.6rem;
+    color: var(--primary-color);
+    text-align: left;
   }
-  
-  h1.education-header {
-    font-weight: 200;
-    font-size: 3.5rem;
-    letter-spacing: 1rem;
-    margin-bottom: 2rem;
-    margin-left: 15px;
-    text-align: left; /* Align header to the left */
-    z-index: 10; /* Ensure the header is on top */
-    position: relative; /* Position relative to the rest of the content */
-  }
-  
-  .education-scroll {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 100vw;
-    transition: transform 0.5s ease;
-    position: relative;
-    padding-top: 50px; /* Adds space between header and cards */
-  }
-  
-  .education-card {
-    width: 160px; /* Smaller width for side cards */
-    height: auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease, opacity 0.5s ease, height 0.5s ease;
-    opacity: 0.5;
-    transform: scale(0.75);
-    border-radius: 8px;
-    flex-shrink: 0;
-    margin: 0 50px; /* Increased horizontal margin */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    overflow: hidden;
-  }
-  
-  .education-card.active {
-    transform: scale(1.3); /* Adjust scale to fit within viewport */
-    opacity: 1;
-    z-index: 1;
-    width: 260px; /* Adjusted width of the active card */
-    height: auto; /* Adjust height dynamically */
-    max-height: 80vh; /* Ensure it fits within 80% of the viewport height */
-    margin: 0 20px; /* Smaller margin for the active card */
-  }
-  
-  .university-image {
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .university-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  
-  .university-information {
-    text-align: center;
-    flex-grow: 1;
-    overflow: hidden;
-  }
-  
-  .university-information h2,
-  .university-information h3,
-  .university-information h4 {
-    margin: 5px 0;
-    font-size: 1rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  
-  .coursework-card ul {
-    display: none;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .coursework-card.active ul {
-    display: block;
-  }
-  
-  .coursework {
-    cursor: pointer;
-    background: #0077b5;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-    transition: background 0.3s ease;
-  }
-  
-  .coursework:hover {
-    background: #005c93;
-  }
-  
+}
+
+.coursework {
+  cursor: pointer;
+  background: #0077b5;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+  font-weight: 200;
+}
+
+.coursework:hover {
+  background: #005c93;
+}
+
+.education-card {
+  transition: transform 1s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
