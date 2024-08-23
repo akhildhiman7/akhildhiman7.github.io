@@ -15,6 +15,156 @@
   scroll-behavior: smooth;
 }
 
+@media (max-width: 1058px) {
+  .main-nav .contact-links {
+    display: none;
+    /* visibility: hidden; */
+  }
+}
+
+@media (max-width: 450px) {
+  header .top-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+  }
+}
+
+@media (max-width: 768px) {
+
+  .landing {
+    flex-direction: column;
+  }
+
+  .landing .main-nav img {
+    width: 100%;
+    padding: 0 30%;
+    margin-bottom: 3%;
+  }
+
+  .landing .main-nav .nav-link {
+    display: none;
+  }
+
+  .landing .hero {
+    width: 100%;
+  }
+
+    /* Adjusting the about section items */
+    .about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        padding: 10px;
+        margin: 0 auto; 
+        gap: 0px;
+    }
+
+    /* Adjusting the size and centering of the SVG container */
+    .svg-container {
+        width: 100%; /* Take full width for centering purposes */
+        max-width: 400px; /* Set a maximum width to prevent oversizing */
+        height: auto; /* Maintain aspect ratio */
+        margin: 10px auto; /* Center the container horizontally */
+        margin-bottom: 0;
+        display: flex; /* Use flex for centering contents */
+        justify-content: center; /* Center contents horizontally */
+        align-items: center; /* Center contents vertically */
+    }
+
+    /* Adjusting the SVG size */
+    .svg-container svg {
+        width: 100%; /* Full width of the container */
+        max-width: 100%; /* Ensure it doesn't exceed container size */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Block display to prevent inline margin issues */
+        margin: 0 auto; /* Center the SVG within the container */
+    }
+
+    /* Adjusting the LinkedIn icon size within the SVG */
+    .linkedin-icon i {
+        font-size: 40px; /* Adjust icon size */
+    }
+
+    .introduction {
+        width: 90%; 
+        max-width: 600px; 
+        margin: 10px auto;
+        margin-top: 0;
+    }
+
+    .introduction-para {
+        font-size: 1rem; 
+        line-height: 1.6; 
+        padding-top: 10px; 
+        padding-left: 10px; 
+        padding-right: 10px; 
+    }
+
+
+    /* Adjusting the Work Experience Section */
+
+    .experience {
+      h1 {
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 300;
+      }
+
+      .experience-card {
+        flex-direction: column;
+      }
+
+      .company-logo img {
+        padding: 0 20% 10% 20%;
+      }
+
+      .company-experience {
+        margin: 0;
+        text-align: center;
+
+        .company-tenure, .company-location {
+          font-size: 0.8rem;
+        }
+
+        .company-name {
+          font-weight: 700;
+        }
+
+        .position-name {
+          font-size: 1rem;
+        }
+
+        .company-division {
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .skills {
+      h1 {
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+
+    .education {
+      .education-header {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+      }
+    }
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
