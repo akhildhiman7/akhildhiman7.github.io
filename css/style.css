@@ -35,6 +35,12 @@
   }
 }
 
+@media (max-width: 520px) {
+  .experience .experience-card {
+    margin: 2% 2% 5% 2%;
+  }
+}
+
 @media (max-width: 900px) {
   .about {
     flex-direction: column;
@@ -152,6 +158,11 @@
 
         .company-division {
           font-size: 0.9rem;
+        }
+
+        .responsibility {
+          /* display: none; */
+          font-size: 0.75rem;
         }
       }
     }
