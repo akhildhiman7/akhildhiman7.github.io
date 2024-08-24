@@ -39,6 +39,15 @@
   .experience .experience-card {
     margin: 2% 2% 5% 2%;
   }
+
+  .about {
+    .introduction {
+      margin: 0;
+    }
+    .introduction-para {
+      padding: 0;
+    }
+  }
 }
 
 @media (max-width: 900px) {
@@ -112,6 +121,10 @@
         max-width: 600px; 
         margin: 10px auto;
         margin-top: 0;
+
+        .introduction-para {
+          font-size: 0.8rem;;
+        }
     }
 
     .introduction-para {
