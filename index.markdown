@@ -1,4 +1,4 @@
-<div style="max-width: 700px; margin-left: auto; margin-right: auto; padding: 20px;">
+<div style="max-width: 700px; margin-left: auto; margin-right: auto; padding: 20px; font-family: Optima, Candara, Calibri, 'Segoe UI', sans-serif;">
 
 
 # Akhil Dhiman
