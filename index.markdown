@@ -2,7 +2,7 @@
 title: Akhil Dhiman
 ---
 
-<div style="max-width: 700px; margin-left: auto; margin-right: auto; padding: 20px; font-family: Optima, Candara, Calibri, 'Segoe UI', sans-serif;">
+<div markdown="1" style="max-width: 700px; margin-left: auto; margin-right: auto; padding: 20px; font-family: Optima, Candara, Calibri, 'Segoe UI', sans-serif;">
 
 I'm a software engineer and a Master's student at Concordia University, Montréal, and I love digging into complex systems to make them better. My journey in tech has given me the chance to work on some fascinating challenges, from working on recommendation engine, and optimizing site reponse times at Amazon to hunting down elusive bugs in Shopify's checkout ecosystem.
 
