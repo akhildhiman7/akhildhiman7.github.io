@@ -1,5 +1,8 @@
-<div style="max-width: 700px; margin-left: auto; margin-right: auto; padding: 20px; font-family: Optima, Candara, Calibri, 'Segoe UI', sans-serif;">
+---
+title: Akhil Dhiman
+---
 
+<div style="max-width: 700px; margin-left: auto; margin-right: auto; padding: 20px; font-family: Optima, Candara, Calibri, 'Segoe UI', sans-serif;">
 
 # Akhil Dhiman
 
@@ -35,7 +38,6 @@ My main focus was on data integrity and system reliability.
 
 <span style="color:#FF9900; font-weight: bold">**Software Development Engineer** @ **Amazon** (Bangalore, KA)</span>
 
-
 At Amazon, I had the opportunity to work on large-scale systems and improve user experience.
 
 - I worked on a recommendation system that led to a 28% boost in activity and improved seller search on the app.
@@ -48,11 +50,11 @@ At Amazon, I had the opportunity to work on large-scale systems and improve user
 
 As a Teaching Assistant for both graduate and undergraduate courses, I've had the opportunity to mentor students in advanced programming concepts and problem-solving techniques.
 
-* **Course Instruction:** Led weekly labs and tutorials for 60+ students, strengthening their grasp of object-oriented programming and advanced Java design patterns. Courses include:
-    * **COMP 6481: Programming and Problem Solving** <span style="color:red">(Graduate Level)</span>
-    * **COMP 249: Object Oriented Programming II** <span style="color:red">(Undergraduate Level)</span>
-* **Student Evaluation:** Reviewed and provided detailed feedback on over 200 student projects and assignments, covering topics like advanced Java GUIs, collections, and algorithms.
-* **Mentorship:** Assisted students individually with debugging and mastering complex programming concepts during office hours.
+- **Course Instruction:** Led weekly labs and tutorials for 60+ students, strengthening their grasp of object-oriented programming and advanced Java design patterns. Courses include:
+  - **COMP 6481: Programming and Problem Solving** <span style="color:red">(Graduate Level)</span>
+  - **COMP 249: Object Oriented Programming II** <span style="color:red">(Undergraduate Level)</span>
+- **Student Evaluation:** Reviewed and provided detailed feedback on over 200 student projects and assignments, covering topics like advanced Java GUIs, collections, and algorithms.
+- **Mentorship:** Assisted students individually with debugging and mastering complex programming concepts during office hours.
 
 ## Some Things I've Built 🚀
 
