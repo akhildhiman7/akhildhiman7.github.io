@@ -26,6 +26,7 @@ I worked at Amazon—first as an intern in DCCS, then as an SDE in SFT—on proj
 ## Experience
 
 ### Amazon — Software Development Engineer
+
 Jan 2022 – Dec 2023 • Bengaluru, India
 
 - Built the product search experience for the Amazon Seller mobile app.
@@ -35,6 +36,7 @@ Jan 2022 – Dec 2023 • Bengaluru, India
 - Drove ticket resolution and refactoring for security, efficiency, and coverage.
 
 ### Amazon — Software Development Engineer Intern
+
 Jan 2021 – Jul 2021 • Chennai, India
 
 - Built infra and business logic for CMT Tier services (Java, Vue.js, AWS).
@@ -46,6 +48,7 @@ Jan 2021 – Jul 2021 • Chennai, India
 ## Projects
 
 ### Venue Classification using ML & DL
+
 Classified scenes into Airport, School, Hospital, Bakery, and Bowling using ML and deep learning.
 
 Tech: Python, PyTorch, scikit-learn
@@ -55,15 +58,19 @@ Tech: Python, PyTorch, scikit-learn
 ## Skills
 
 ### Languages
+
 - Java • Go • C++ • Python • JavaScript/TypeScript • SQL
 
 ### Web & Frontend
+
 - HTML • CSS
 
 ### Cloud & Infrastructure
+
 - AWS (Lambda, API Gateway, DynamoDB, S3, CloudWatch) • GitHub
 
 ### CS Topics
+
 - Algorithms and Data Structures
 
 ---
@@ -71,16 +78,19 @@ Tech: Python, PyTorch, scikit-learn
 ## Education
 
 ### Concordia University — Montréal, Quebec, Canada
+
 Master of Applied Computer Science • May 2024 – Apr 2026
 
 Coursework: AI (COMP 6481), Parallel Programming (COMP 6721), Algorithm Design Techniques (COMP 6448)
 
 ### Lovely Professional University — Phagwara, Punjab, India
+
 B.Tech, Computer Science Engineering • Aug 2017 – Jun 2021
 
 Coursework: Data Structures & Algorithms, Operating Systems, Data Science
 
 ### CBSE — Kaithal, Haryana, India
+
 High School • Mar 2014 – Apr 2017
 
 Coursework: Physics, Chemistry, Mathematics
